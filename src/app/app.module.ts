@@ -7,10 +7,12 @@ import { AppComponent } from './app.component';
 import {HttpClientModule} from "@angular/common/http";
 import {ApiModule, BASE_PATH} from "./openapi-gen";
 import {environment} from "../environments/environment";
+import { TodoListsComponent } from './todo-lists/todo-lists.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    TodoListsComponent
   ],
   imports: [
     BrowserModule,
